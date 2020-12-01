@@ -1,0 +1,62 @@
+:root{
+    --color: blue;
+    }
+
+  button {
+    position:absolute;
+    top: 400px;   
+    left: 130px;
+  }
+
+.studentid{
+  position: relative;
+  bottom: 5px;
+    color: #7B68EE;
+}
+
+input[type=number]:valid{
+     color: #ffc097;
+}
+
+input[type=number]:invalid{
+     color: var(--color);
+}
+
+#email:valid{
+     color: #ffc097;
+}
+
+#email:invalid{
+     color: var(--color);
+}
+
+#tel:valid{
+     color: #351044;
+}
+
+#tel:invalid{
+     color: var(--color);
+}
+
+
+
+input[type=text]:enabled {
+    background: #8cfcff;
+}
+  
+input[type=text]:disabled {
+    background: #5e5e5e;
+}
+  
+input:required {
+      border: 2px solid #fa82ff;
+      border-radius: 4px; 
+}
+  
+input:optional{
+      border: 2px solid #812b5a; 
+}
+  
+
+  
+
